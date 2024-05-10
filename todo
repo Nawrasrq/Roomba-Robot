@@ -1,0 +1,18 @@
+To do
+- Get model working in RViz
+    - write trashbot_rviz_node.py
+    - fix trashbot_rviz.launch.py 
+
+- CMakeList files
+    - c99 version control neccessary?
+
+- trashbot_bringup
+    - write CMakeList
+    - write package.xml
+    - write launch file
+    - write param files
+
+Future folders  
+- trashbot_cartographer
+- trashbot_navigation
+- trashbot_slam

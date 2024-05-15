@@ -1,18 +1,19 @@
 To do
 - Get model working in RViz
-    - write trashbot_rviz_node.py
-    - fix trashbot_rviz.launch.py 
+    - finish custom urdf in trashbot_description
 
-- CMakeList files
-    - c99 version control neccessary?
+trashbot_description
+    - Calculate proper inertia for base_link?
+    - Finish left wheel joint
+    - Write right wheel joint
+    - Write right wheel link
+    - Write imu joint
+    - Write imu link
+    - Write scan joint
+    - Write scan link
 
-- trashbot_bringup
-    - write CMakeList
-    - write package.xml
-    - write launch file
-    - write param files
-
-Future folders  
+Future directories to write
+- trashbot_node 
 - trashbot_cartographer
 - trashbot_navigation
 - trashbot_slam

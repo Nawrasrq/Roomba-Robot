@@ -3,10 +3,6 @@ To do
     - finish custom urdf in trashbot_description
 
 trashbot_description
-    - Calculate proper inertia for base_link?
-    - Finish left wheel joint
-    - Write right wheel joint
-    - Write right wheel link
     - Write imu joint
     - Write imu link
     - Write scan joint

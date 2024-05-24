@@ -1,15 +1,9 @@
 To do
-- Get model working in RViz
-    - finish custom urdf in trashbot_description
-
-trashbot_description
-    - Write imu joint
-    - Write imu link
-    - Write scan joint
-    - Write scan link
+- trashbot_node
+    - write code for teleop and basic pathfinding 
+- trashbot_bringup
+    - write launch file for Gazebo
 
 Future directories to write
 - trashbot_node 
-- trashbot_cartographer
-- trashbot_navigation
 - trashbot_slam

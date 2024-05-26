@@ -49,12 +49,12 @@ def generate_launch_description():
                           'use_sim_time': use_sim_time}],
         ),
         Node(
-            package='ros_gz_sim',
+            package='ros_gz_sim', 
             executable='create',
             output='screen',
-            arguments=[{
-                        'name', 'trashbot',
-                        '-topic', '/robot_description',
-                        }],
+            arguments=[
+            '-name', 'trashbot',
+            '-topic', '/robot_description',
+            ],
         ),
     ])

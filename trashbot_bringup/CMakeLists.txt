@@ -18,8 +18,7 @@ endif()
 # Include dependencies specified in package.xml
 find_package(ament_cmake REQUIRED)
 
-install(
-  DIRECTORY launch
+install(DIRECTORY launch worlds
   DESTINATION share/${PROJECT_NAME}
 )
 
